@@ -3,7 +3,7 @@
 exporters:
   otlp/elastic: 
     # Elastic APM server https endpoint without the "https://" prefix
-    endpoint: "http://192.168.15.58:8200"
+    endpoint: "http://fleet-server:8200"
     tls:
       insecure: true
       insecure_skip_verify: true
